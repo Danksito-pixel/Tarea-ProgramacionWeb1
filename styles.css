@@ -1,24 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .GrocerQuick{
+    margin-left: 40px;
     color: green;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-.Gestion{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.Comienza{
-    color: aliceblue;
-    background-color:#005b35;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     
+}
+
+
+
+.Gestion{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.Comienza{
+    border: 6px #005b35 solid;
+    font-size: 15px;
+    
+    color: aliceblue;
+    background-color: #005b35;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+    margin-left: 40px;
+}
+
+
+
+
+.Simplifica{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: rgb(52, 49, 56);
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.barra{
+
+    
+    background-color: #c9d4d0;
+   
+    width: 100%;
+    height: 20px;
+}
+
+.imagen{
+    
+    width: 400px;
+    
+    display: block;
+    
+    margin-left: auto;
+    
+    
+      margin-right: 20px;
+    
+       margin-top: -260px;
+    border-radius: 10px;
+}
+
+
+.Parte_de_abajo {
+    margin-top: 70px;
+    width: 100%;
+    background-color: #f1f4f3;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.Muestros_servicios {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: #005b35;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.servicios-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.servicio {
+    background-color: #ffffff;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.servicio p {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.imagen-servicio {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    background-color: #e2e8e6;
+}
+
+.img-inventario {
+    background-image: url('/Users/dan/Downloads/diseno_almacen_estanterias_record_011220.jpg');
 
 }
 
 
-.Simplifica{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(52, 49, 56);
+
+.img-clientes {
+
+    background-image: url('/Users/dan/Downloads/images.jpeg');
+}
+
+
+.img-empleados {
+    background-image: url('/Users/dan/Downloads/gestion-de-ventas.jpeg');
+
+
+}
+
+
+
+.img-ventas {
+    background-image: url('/Users/dan/Downloads/Gestao-de-vendas-o-que-e-e-quais-os-beneficios.jpg');
 }
